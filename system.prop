@@ -17,7 +17,7 @@ ro.sf.blurs_are_expensive=1
 
 # Camera
 persist.vendor.camera.privapp.list=app.grapheneos.camera,org.codeaurora.snapcam,com.android.camera
-vendor.camera.aux.packagelist=app.grapheneos.camera,org.codeaurora.snapcam,com.android.camera,org.lineageos.aperture.dev,com.voltage.flash
+vendor.camera.aux.packagelist=app.grapheneos.camera,org.codeaurora.snapcam,com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true
@@ -96,6 +96,3 @@ media.wfd.max_resolution=5
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
-
-# Disable Remote Keygaurd animation
-persist.wm.enable_remote_keyguard_animation=0
